@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="ghub"
+                fetch="https://github.com" />
+	
+	<remote name="me"
+                fetch="https://github.com/ij-israfil" />
+ 
+<!-- Device Trees --> 
+  <project path="device/realme/RMX1901" name="israfilbd2/device_realme_RMX1901" remote="ghub" revision="superior" />
+	
+ <!-- Vendor Trees -->
+ <project path="vendor/realme/RMX1901" name="vendor_realme_RMX1901" remote="me" revision="13-U" />
+	
+ <!-- Kernel Trees-->
+ <project path="kernel/realme/RMX1901" name="kernel_realme_RMX1901" remote="me" revision="dev.337" />
+
+<!-- Framework Superior -->
+ <remove-project name="android_frameworks_base" />
+ <project path="frameworks/base" name="israfilbd/frameworks_base_superior" remote="ghub" revision="thirteen" />
+
+<!-- Viper4android -->
+ <project path="packages/apps/ViPER4AndroidFX" name="israfilbd2/packages_apps_ViPER4AndroidFX" remote="ghub" revision="v4a_2.7.1" />
+	
+</manifest>
