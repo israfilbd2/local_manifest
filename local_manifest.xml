@@ -19,6 +19,14 @@
  <remove-project name="crdroidandroid/android_frameworks_base" />
  <project path="frameworks/base" name="israfilbd/frameworks_base_crdroid" remote="ghub" revision="13.0" />
 
+<!-- android_packages_apps_crDroidSettings -->
+ <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
+ <project path="packages/apps/crDroidSettings" name="israfilbd/android_packages_apps_crDroidSettings" remote="ghub" revision="13.0" />
+
+<!-- android_packages_apps_Settings -->
+ <remove-project name="crdroidandroid/android_packages_apps_Settings" />
+ <project path="packages/apps/Settings" name="israfilbd/android_packages_apps_Settings" remote="ghub" revision="13.0" />
+	
 <!-- Viper4android -->
  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="me" revision="v4a_2.7.1" />
 	
